@@ -10,8 +10,6 @@ COPY app /root/demux_backend/app
 
 COPY bin /root/demux_backend/bin
 
-COPY utils /root/demux_backend/utils
-
 COPY app.js /root/demux_backend/
 
 COPY package.json /root/demux_backend/
